@@ -55,10 +55,13 @@ namespace Platformer.Mechanics
         {
             if (controlEnabled)
             {
-                move.x = Input.GetAxis("Horizontal");
-                if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump"))
+                move.x = gameObject.CompareTag("Crewmate") ? Input.GetAxis("Horizontal") : Input.GetAxis("Horizontal-2");
+                bool jumpKeyDown = gameObject.CompareTag("Crewmate") ? Input.GetButtonDown("Jump") : Input.GetButtonDown("Jump-2");
+                bool jumpKeyUp = gameObject.CompareTag("Crewmate") ? Input.GetButtonUp("Jump") : Input.GetButtonUp("Jump-2");
+
+                if (jumpState == JumpState.Grounded && jumpKeyDown)
                     jumpState = JumpState.PrepareToJump;
-                else if (Input.GetButtonUp("Jump"))
+                else if (jumpKeyUp)
                 {
                     stopJump = true;
                     Schedule<PlayerStopJump>().player = this;
