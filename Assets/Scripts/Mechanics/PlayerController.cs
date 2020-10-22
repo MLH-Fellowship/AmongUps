@@ -25,7 +25,7 @@ namespace Platformer.Mechanics
         /// <summary>
         /// Initial jump velocity at the start of a jump.
         /// </summary>
-        public float jumpTakeOffSpeed = 7;
+        public float jumpTakeOffSpeed = 5;
 
         public JumpState jumpState = JumpState.Grounded;
         private bool stopJump;
@@ -55,13 +55,21 @@ namespace Platformer.Mechanics
         {
             if (controlEnabled)
             {
-                move.x = Input.GetAxis("Horizontal");
-                if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump"))
+                move.x = gameObject.CompareTag("Crewmate") ? Input.GetAxis("Horizontal") : Input.GetAxis("Horizontal-2");
+                bool jumpKeyDown = gameObject.CompareTag("Crewmate") ? Input.GetButtonDown("Jump") : Input.GetButtonDown("Jump-2");
+                bool jumpKeyUp = gameObject.CompareTag("Crewmate") ? Input.GetButtonUp("Jump") : Input.GetButtonUp("Jump-2");
+
+                if (jumpState == JumpState.Grounded && jumpKeyDown)
                     jumpState = JumpState.PrepareToJump;
-                else if (Input.GetButtonUp("Jump"))
+                else if (jumpKeyUp)
                 {
                     stopJump = true;
                     Schedule<PlayerStopJump>().player = this;
+                }
+
+                bool attackKey = gameObject.CompareTag("Crewmate") ? Input.GetButtonDown("Attack") : Input.GetButtonDown("Attack-2");
+                if (attackKey) {
+                    animator.Play("Player-Attack");
                 }
             }
             else

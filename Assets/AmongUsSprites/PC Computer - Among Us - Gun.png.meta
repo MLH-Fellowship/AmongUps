@@ -1,0 +1,1685 @@
+fileFormatVersion: 2
+guid: 71efea6d7fda63e4da1dcc989a1e8628
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1768728033812457046
+    second: PC Computer - Among Us - Gun_0
+  - first:
+      213: 6845789405389723741
+    second: PC Computer - Among Us - Gun_0
+  - first:
+      213: 7954804967135336089
+    second: PC Computer - Among Us - Gun_1
+  - first:
+      213: -2834252921831626987
+    second: PC Computer - Among Us - Gun_2
+  - first:
+      213: 8895572278212758099
+    second: PC Computer - Among Us - Gun_3
+  - first:
+      213: 6224459441220674654
+    second: PC Computer - Among Us - Gun_4
+  - first:
+      213: 658368700244731928
+    second: PC Computer - Among Us - Gun_5
+  - first:
+      213: 1177572257443491390
+    second: PC Computer - Among Us - Gun_6
+  - first:
+      213: -7610284599621858427
+    second: PC Computer - Among Us - Gun_7
+  - first:
+      213: 1798943003516569887
+    second: PC Computer - Among Us - Gun_8
+  - first:
+      213: 5677217252030345301
+    second: PC Computer - Among Us - Gun_9
+  - first:
+      213: -4216709441663704498
+    second: PC Computer - Among Us - Gun_10
+  - first:
+      213: -8996650856684381693
+    second: PC Computer - Among Us - Gun_11
+  - first:
+      213: 5035627015072606759
+    second: PC Computer - Among Us - Gun_12
+  - first:
+      213: 3053046635931156350
+    second: PC Computer - Among Us - Gun_13
+  - first:
+      213: -5987776382121577520
+    second: PC Computer - Among Us - Gun_14
+  - first:
+      213: 7104144521847778072
+    second: PC Computer - Among Us - Gun_15
+  - first:
+      213: 631167640482627625
+    second: PC Computer - Among Us - Gun_16
+  - first:
+      213: -2650125106598447778
+    second: PC Computer - Among Us - Gun_17
+  - first:
+      213: -1668842451999457611
+    second: PC Computer - Among Us - Gun_18
+  - first:
+      213: 8852897096067444710
+    second: PC Computer - Among Us - Gun_19
+  - first:
+      213: 3026267799634945866
+    second: PC Computer - Among Us - Gun_20
+  - first:
+      213: 7999164124771035137
+    second: PC Computer - Among Us - Gun_21
+  - first:
+      213: 1006435036517037635
+    second: PC Computer - Among Us - Gun_22
+  - first:
+      213: -6259128251699293883
+    second: PC Computer - Among Us - Gun_23
+  - first:
+      213: 9063158514785407520
+    second: PC Computer - Among Us - Gun_24
+  - first:
+      213: -1216472050308511159
+    second: PC Computer - Among Us - Gun_25
+  - first:
+      213: -4726782709713169930
+    second: PC Computer - Among Us - Gun_26
+  - first:
+      213: -6933214063012882409
+    second: PC Computer - Among Us - Gun_27
+  - first:
+      213: -6874618009708498034
+    second: PC Computer - Among Us - Gun_28
+  - first:
+      213: -7616716701461816542
+    second: PC Computer - Among Us - Gun_29
+  - first:
+      213: -1972317547494214262
+    second: PC Computer - Among Us - Gun_30
+  - first:
+      213: -1095185565815197604
+    second: PC Computer - Among Us - Gun_31
+  - first:
+      213: 3064758252036959754
+    second: PC Computer - Among Us - Gun_32
+  - first:
+      213: -614185008441692245
+    second: PC Computer - Among Us - Gun_33
+  - first:
+      213: 3267002802060040542
+    second: PC Computer - Among Us - Gun_34
+  - first:
+      213: 311060966986698899
+    second: PC Computer - Among Us - Gun_35
+  - first:
+      213: -6026163217981549033
+    second: PC Computer - Among Us - Gun_36
+  - first:
+      213: 3500164552518590495
+    second: PC Computer - Among Us - Gun_37
+  - first:
+      213: -193827271642734171
+    second: PC Computer - Among Us - Gun_38
+  - first:
+      213: 3136159422189747471
+    second: PC Computer - Among Us - Gun_39
+  - first:
+      213: -6741107457397394294
+    second: PC Computer - Among Us - Gun_40
+  - first:
+      213: 2798953795357020187
+    second: PC Computer - Among Us - Gun_41
+  - first:
+      213: -8526536619813694762
+    second: PC Computer - Among Us - Gun_42
+  - first:
+      213: 6369132522483384433
+    second: PC Computer - Among Us - Gun_43
+  - first:
+      213: -3503717812531920598
+    second: PC Computer - Among Us - Gun_44
+  - first:
+      213: -1992672357486231609
+    second: PC Computer - Among Us - Gun_45
+  - first:
+      213: 3383425330873198734
+    second: PC Computer - Among Us - Gun_46
+  - first:
+      213: -7581058269316156508
+    second: PC Computer - Among Us - Gun_47
+  - first:
+      213: -692106715936703035
+    second: PC Computer - Among Us - Gun_48
+  - first:
+      213: 2070572528666016955
+    second: PC Computer - Among Us - Gun_49
+  - first:
+      213: -2696829173665290378
+    second: PC Computer - Among Us - Gun_50
+  - first:
+      213: -4978703939130135270
+    second: PC Computer - Among Us - Gun_51
+  - first:
+      213: 6970045144070504643
+    second: PC Computer - Among Us - Gun_52
+  - first:
+      213: 3128755114846091945
+    second: PC Computer - Among Us - Gun_53
+  - first:
+      213: -7804250508104336235
+    second: PC Computer - Among Us - Gun_54
+  - first:
+      213: 4556080122307943253
+    second: PC Computer - Among Us - Gun_55
+  - first:
+      213: 173296552297361240
+    second: PC Computer - Among Us - Gun_56
+  - first:
+      213: 9156722178270434986
+    second: PC Computer - Among Us - Gun_57
+  - first:
+      213: -1085079995512533521
+    second: PC Computer - Among Us - Gun_58
+  - first:
+      213: 9184483142669210501
+    second: PC Computer - Among Us - Gun_59
+  - first:
+      213: -8621040152372533170
+    second: PC Computer - Among Us - Gun_60
+  - first:
+      213: -3893284001973628234
+    second: PC Computer - Among Us - Gun_61
+  - first:
+      213: 6197490168828998210
+    second: PC Computer - Among Us - Gun_62
+  - first:
+      213: 7565916504165088953
+    second: PC Computer - Among Us - Gun_63
+  - first:
+      213: 4634487298393296399
+    second: PC Computer - Among Us - Gun_64
+  - first:
+      213: -6124132568122416691
+    second: PC Computer - Among Us - Gun_65
+  - first:
+      213: 8489151510479479632
+    second: PC Computer - Among Us - Gun_66
+  - first:
+      213: -2814761742370023191
+    second: PC Computer - Among Us - Gun_67
+  - first:
+      213: 8591559623495586367
+    second: PC Computer - Among Us - Gun_68
+  - first:
+      213: -8187390551002516833
+    second: PC Computer - Among Us - Gun_69
+  - first:
+      213: -1982582486357164122
+    second: PC Computer - Among Us - Gun_70
+  - first:
+      213: -5252250887521492077
+    second: PC Computer - Among Us - Gun_71
+  - first:
+      213: 1587729283116889345
+    second: PC Computer - Among Us - Gun_72
+  - first:
+      213: 65201126573164443
+    second: PC Computer - Among Us - Gun_73
+  - first:
+      213: -8595624959270377487
+    second: PC Computer - Among Us - Gun_74
+  - first:
+      213: -1307037034849876634
+    second: PC Computer - Among Us - Gun_75
+  - first:
+      213: 7900655500130711214
+    second: PC Computer - Among Us - Gun_76
+  - first:
+      213: -1808511522113685941
+    second: PC Computer - Among Us - Gun_77
+  - first:
+      213: 8728674912664442030
+    second: PC Computer - Among Us - Gun_78
+  - first:
+      213: -1485998092979388006
+    second: PC Computer - Among Us - Gun_79
+  - first:
+      213: -6869455118963615490
+    second: PC Computer - Among Us - Gun_80
+  - first:
+      213: 3823448618331197941
+    second: PC Computer - Among Us - Gun_81
+  - first:
+      213: 2462075063662093552
+    second: PC Computer - Among Us - Gun_82
+  - first:
+      213: -2986786944940179501
+    second: PC Computer - Among Us - Gun_83
+  - first:
+      213: 4548785731028051054
+    second: PC Computer - Among Us - Gun_84
+  - first:
+      213: 1643192071114016029
+    second: PC Computer - Among Us - Gun_85
+  - first:
+      213: -7987966784001859179
+    second: PC Computer - Among Us - Gun_86
+  - first:
+      213: -5904306232501447914
+    second: PC Computer - Among Us - Gun_87
+  - first:
+      213: -227770118689135202
+    second: PC Computer - Among Us - Gun_88
+  - first:
+      213: -7499487106773395524
+    second: PC Computer - Among Us - Gun_89
+  - first:
+      213: 3993490564855093809
+    second: PC Computer - Among Us - Gun_90
+  - first:
+      213: -7561171682540025320
+    second: PC Computer - Among Us - Gun_91
+  - first:
+      213: 4775761324706171805
+    second: PC Computer - Among Us - Gun_92
+  - first:
+      213: -2991177904007927149
+    second: PC Computer - Among Us - Gun_93
+  - first:
+      213: -8353645374247181284
+    second: PC Computer - Among Us - Gun_94
+  - first:
+      213: 593317736357766262
+    second: PC Computer - Among Us - Gun_95
+  - first:
+      213: 3652680070542677027
+    second: PC Computer - Among Us - Gun_96
+  - first:
+      213: 5969859490657908975
+    second: PC Computer - Among Us - Gun_97
+  - first:
+      213: 8276555649585349152
+    second: PC Computer - Among Us - Gun_98
+  - first:
+      213: -1704543460393103558
+    second: PC Computer - Among Us - Gun_99
+  - first:
+      213: 2446214745722766262
+    second: PC Computer - Among Us - Gun_100
+  - first:
+      213: 8020876435974891382
+    second: PC Computer - Among Us - Gun_101
+  - first:
+      213: 211789611165958764
+    second: PC Computer - Among Us - Gun_102
+  - first:
+      213: -4791993356901413189
+    second: PC Computer - Among Us - Gun_103
+  - first:
+      213: -1527411755876777165
+    second: PC Computer - Among Us - Gun_104
+  - first:
+      213: -6832725784430780249
+    second: PC Computer - Among Us - Gun_105
+  - first:
+      213: -3455809466698187691
+    second: PC Computer - Among Us - Gun_106
+  - first:
+      213: -325012601791856371
+    second: PC Computer - Among Us - Gun_107
+  - first:
+      213: -7647219286936883844
+    second: PC Computer - Among Us - Gun_108
+  - first:
+      213: -2280727900356628567
+    second: PC Computer - Among Us - Gun_109
+  - first:
+      213: 7341976952945112766
+    second: PC Computer - Among Us - Gun_110
+  - first:
+      213: 2309446935345626679
+    second: PC Computer - Among Us - Gun_111
+  - first:
+      213: -8637018318745127076
+    second: PC Computer - Among Us - Gun_112
+  - first:
+      213: 2840173063012646279
+    second: PC Computer - Among Us - Gun_113
+  - first:
+      213: 2558744911019043084
+    second: PC Computer - Among Us - Gun_114
+  - first:
+      213: -7523863286086044437
+    second: PC Computer - Among Us - Gun_115
+  - first:
+      213: -2971843902253164153
+    second: PC Computer - Among Us - Gun_116
+  - first:
+      213: -5177182554241787803
+    second: PC Computer - Among Us - Gun_117
+  - first:
+      213: 5948158719927736
+    second: PC Computer - Among Us - Gun_118
+  - first:
+      213: -1673184035380314724
+    second: PC Computer - Among Us - Gun_119
+  - first:
+      213: -776365679429490949
+    second: PC Computer - Among Us - Gun_120
+  - first:
+      213: 2576927644866652791
+    second: PC Computer - Among Us - Gun_121
+  - first:
+      213: -4273156668187680572
+    second: PC Computer - Among Us - Gun_122
+  - first:
+      213: -8458507011270023592
+    second: PC Computer - Among Us - Gun_123
+  - first:
+      213: 1235538997173793247
+    second: PC Computer - Among Us - Gun_124
+  - first:
+      213: 4387843494982449028
+    second: PC Computer - Among Us - Gun_125
+  - first:
+      213: 8513872785035247745
+    second: PC Computer - Among Us - Gun_126
+  - first:
+      213: 7213183609911890321
+    second: PC Computer - Among Us - Gun_127
+  - first:
+      213: 2405276061836140360
+    second: PC Computer - Among Us - Gun_128
+  - first:
+      213: 2853942657971763668
+    second: PC Computer - Among Us - Gun_129
+  - first:
+      213: -8031270791586423818
+    second: PC Computer - Among Us - Gun_130
+  - first:
+      213: -4733923029643269111
+    second: PC Computer - Among Us - Gun_131
+  - first:
+      213: 6670591222162105325
+    second: PC Computer - Among Us - Gun_132
+  - first:
+      213: -8352847708357044545
+    second: PC Computer - Among Us - Gun_133
+  - first:
+      213: 8222165641914104346
+    second: PC Computer - Among Us - Gun_134
+  - first:
+      213: -3433941816979633769
+    second: PC Computer - Among Us - Gun_135
+  - first:
+      213: -6829085962723659242
+    second: PC Computer - Among Us - Gun_136
+  - first:
+      213: 1669144485232006157
+    second: PC Computer - Among Us - Gun_137
+  - first:
+      213: -1483293569338176106
+    second: PC Computer - Among Us - Gun_138
+  - first:
+      213: -9191937621761015216
+    second: PC Computer - Among Us - Gun_139
+  - first:
+      213: -6902016381261027823
+    second: PC Computer - Among Us - Gun_140
+  - first:
+      213: 8965674141564571309
+    second: PC Computer - Among Us - Gun_141
+  - first:
+      213: -3771040689268587646
+    second: PC Computer - Among Us - Gun_142
+  - first:
+      213: 8916673719051713003
+    second: PC Computer - Among Us - Gun_143
+  - first:
+      213: -3232112882246724836
+    second: PC Computer - Among Us - Gun_144
+  - first:
+      213: -6474729275993894284
+    second: PC Computer - Among Us - Gun_145
+  - first:
+      213: -3741837854491102238
+    second: PC Computer - Among Us - Gun_146
+  - first:
+      213: 1109479818797219612
+    second: PC Computer - Among Us - Gun_147
+  - first:
+      213: 8334353597681537552
+    second: PC Computer - Among Us - Gun_148
+  - first:
+      213: -213404585006347566
+    second: PC Computer - Among Us - Gun_149
+  - first:
+      213: -1964507121766461629
+    second: PC Computer - Among Us - Gun_150
+  - first:
+      213: -126732848200850127
+    second: PC Computer - Among Us - Gun_151
+  - first:
+      213: -8908999054379973064
+    second: PC Computer - Among Us - Gun_152
+  - first:
+      213: 8206033470530253046
+    second: PC Computer - Among Us - Gun_153
+  - first:
+      213: 1603433479643665240
+    second: PC Computer - Among Us - Gun_154
+  - first:
+      213: 8069002861037897473
+    second: PC Computer - Among Us - Gun_155
+  - first:
+      213: 1444839825231306967
+    second: PC Computer - Among Us - Gun_156
+  - first:
+      213: -5202510665073621668
+    second: PC Computer - Among Us - Gun_157
+  - first:
+      213: 2381809778237222715
+    second: PC Computer - Among Us - Gun_158
+  - first:
+      213: -4551664793638178467
+    second: PC Computer - Among Us - Gun_159
+  - first:
+      213: 4066380466581915146
+    second: PC Computer - Among Us - Gun_160
+  - first:
+      213: -5734637288411566348
+    second: PC Computer - Among Us - Gun_161
+  - first:
+      213: -3321328483782658945
+    second: PC Computer - Among Us - Gun_162
+  - first:
+      213: -5579607613656837995
+    second: PC Computer - Among Us - Gun_163
+  - first:
+      213: -3915001278860739963
+    second: PC Computer - Among Us - Gun_164
+  - first:
+      213: -6250075115260547546
+    second: PC Computer - Among Us - Gun_165
+  - first:
+      213: -5616349538388279512
+    second: PC Computer - Among Us - Gun_166
+  - first:
+      213: -17290833954430493
+    second: PC Computer - Among Us - Gun_167
+  - first:
+      213: 5133105892914785402
+    second: PC Computer - Among Us - Gun_168
+  - first:
+      213: -1110298918462377175
+    second: PC Computer - Among Us - Gun_169
+  - first:
+      213: 7571609432145665896
+    second: PC Computer - Among Us - Gun_170
+  - first:
+      213: -137840683460573737
+    second: PC Computer - Among Us - Gun_171
+  - first:
+      213: -913442228618392899
+    second: PC Computer - Among Us - Gun_172
+  - first:
+      213: -8981204206193885426
+    second: PC Computer - Among Us - Gun_173
+  - first:
+      213: 1216476616969757644
+    second: PC Computer - Among Us - Gun_174
+  - first:
+      213: 4161504256429376368
+    second: PC Computer - Among Us - Gun_175
+  - first:
+      213: -6327972602242343310
+    second: PC Computer - Among Us - Gun_176
+  - first:
+      213: 4802260088851167789
+    second: PC Computer - Among Us - Gun_177
+  - first:
+      213: 2517882667549948676
+    second: PC Computer - Among Us - Gun_178
+  - first:
+      213: -4480927263839341496
+    second: PC Computer - Among Us - Gun_179
+  - first:
+      213: -1880753093090490513
+    second: PC Computer - Among Us - Gun_180
+  - first:
+      213: 2321626101710934647
+    second: PC Computer - Among Us - Gun_181
+  - first:
+      213: -3618839683464435124
+    second: PC Computer - Among Us - Gun_182
+  - first:
+      213: -5083780109562742380
+    second: PC Computer - Among Us - Gun_183
+  - first:
+      213: -2698851593929225543
+    second: PC Computer - Among Us - Gun_184
+  - first:
+      213: -3834083818290807194
+    second: PC Computer - Among Us - Gun_185
+  - first:
+      213: -3643444359218962874
+    second: PC Computer - Among Us - Gun_186
+  - first:
+      213: 2968785671246208863
+    second: PC Computer - Among Us - Gun_187
+  - first:
+      213: 3803685617133897861
+    second: PC Computer - Among Us - Gun_188
+  - first:
+      213: -5192228934371406501
+    second: PC Computer - Among Us - Gun_189
+  - first:
+      213: 5326229459354996024
+    second: PC Computer - Among Us - Gun_190
+  - first:
+      213: 3356005676996892344
+    second: PC Computer - Among Us - Gun_191
+  - first:
+      213: -7481849491488738405
+    second: PC Computer - Among Us - Gun_192
+  - first:
+      213: -3667874763236933007
+    second: PC Computer - Among Us - Gun_193
+  - first:
+      213: 651294369978189092
+    second: PC Computer - Among Us - Gun_194
+  - first:
+      213: 8911654258027027556
+    second: PC Computer - Among Us - Gun_195
+  - first:
+      213: 1407710169203263679
+    second: PC Computer - Among Us - Gun_196
+  - first:
+      213: 3816234263761534335
+    second: PC Computer - Among Us - Gun_197
+  - first:
+      213: -8952330928686491347
+    second: PC Computer - Among Us - Gun_198
+  - first:
+      213: -7092355111697985580
+    second: PC Computer - Among Us - Gun_199
+  - first:
+      213: 2693269073321859225
+    second: PC Computer - Among Us - Gun_200
+  - first:
+      213: -542114148030993428
+    second: PC Computer - Among Us - Gun_201
+  - first:
+      213: 3629081426996538733
+    second: PC Computer - Among Us - Gun_202
+  - first:
+      213: 4900912209004998211
+    second: PC Computer - Among Us - Gun_203
+  - first:
+      213: 4723426917250318426
+    second: PC Computer - Among Us - Gun_204
+  - first:
+      213: 964244455127319554
+    second: PC Computer - Among Us - Gun_205
+  - first:
+      213: -7224783257165848782
+    second: PC Computer - Among Us - Gun_206
+  - first:
+      213: -8487185257066362122
+    second: PC Computer - Among Us - Gun_207
+  - first:
+      213: -5673754183949670487
+    second: PC Computer - Among Us - Gun_208
+  - first:
+      213: 4703307324309682727
+    second: PC Computer - Among Us - Gun_209
+  - first:
+      213: -6453550573062139819
+    second: PC Computer - Among Us - Gun_210
+  - first:
+      213: -1715130995579461801
+    second: PC Computer - Among Us - Gun_211
+  - first:
+      213: 4936462045729045167
+    second: PC Computer - Among Us - Gun_212
+  - first:
+      213: -4789758892747671622
+    second: PC Computer - Among Us - Gun_213
+  - first:
+      213: -8410240584696479505
+    second: PC Computer - Among Us - Gun_214
+  - first:
+      213: -2186853732864447113
+    second: PC Computer - Among Us - Gun_215
+  - first:
+      213: 7145704299785469206
+    second: PC Computer - Among Us - Gun_216
+  - first:
+      213: -4095227720689128646
+    second: PC Computer - Among Us - Gun_217
+  - first:
+      213: -5583906950297807912
+    second: PC Computer - Among Us - Gun_218
+  - first:
+      213: -6326189056446031839
+    second: PC Computer - Among Us - Gun_219
+  - first:
+      213: -1225945078316241881
+    second: PC Computer - Among Us - Gun_220
+  - first:
+      213: -2360697145499450737
+    second: PC Computer - Among Us - Gun_221
+  - first:
+      213: -5549639621536198866
+    second: PC Computer - Among Us - Gun_222
+  - first:
+      213: 7364273681323093175
+    second: PC Computer - Among Us - Gun_223
+  - first:
+      213: 8700927147618201430
+    second: PC Computer - Among Us - Gun_224
+  - first:
+      213: -138140742418535776
+    second: PC Computer - Among Us - Gun_225
+  - first:
+      213: 8669765471688698490
+    second: PC Computer - Among Us - Gun_226
+  - first:
+      213: 8994737434056837575
+    second: PC Computer - Among Us - Gun_227
+  - first:
+      213: 4815647550777412218
+    second: PC Computer - Among Us - Gun_228
+  - first:
+      213: 1851171571711726363
+    second: PC Computer - Among Us - Gun_229
+  - first:
+      213: -8704175885317104572
+    second: PC Computer - Among Us - Gun_230
+  - first:
+      213: 4413108666653846773
+    second: PC Computer - Among Us - Gun_231
+  - first:
+      213: 7237987294665343313
+    second: PC Computer - Among Us - Gun_232
+  - first:
+      213: -6773580058079277663
+    second: PC Computer - Among Us - Gun_233
+  - first:
+      213: -930841774021130814
+    second: PC Computer - Among Us - Gun_234
+  - first:
+      213: 3639898703894536066
+    second: PC Computer - Among Us - Gun_235
+  - first:
+      213: -486454218385705140
+    second: PC Computer - Among Us - Gun_236
+  - first:
+      213: 8463910605682827148
+    second: PC Computer - Among Us - Gun_237
+  - first:
+      213: -6039607873151302467
+    second: PC Computer - Among Us - Gun_238
+  - first:
+      213: -5385745410820907899
+    second: PC Computer - Among Us - Gun_239
+  - first:
+      213: 2730493248282370807
+    second: PC Computer - Among Us - Gun_240
+  - first:
+      213: -4202311133565874573
+    second: PC Computer - Among Us - Gun_241
+  - first:
+      213: 6706613349125223752
+    second: PC Computer - Among Us - Gun_242
+  - first:
+      213: -2822103322589520686
+    second: PC Computer - Among Us - Gun_243
+  - first:
+      213: -1547039306697484535
+    second: PC Computer - Among Us - Gun_244
+  - first:
+      213: -9140610236474168506
+    second: PC Computer - Among Us - Gun_245
+  - first:
+      213: -7355763745775493982
+    second: PC Computer - Among Us - Gun_246
+  - first:
+      213: 8492998627939871890
+    second: PC Computer - Among Us - Gun_247
+  - first:
+      213: 4059284946138984435
+    second: PC Computer - Among Us - Gun_248
+  - first:
+      213: 3534119996506686434
+    second: PC Computer - Among Us - Gun_249
+  - first:
+      213: -6916342535566172745
+    second: PC Computer - Among Us - Gun_250
+  - first:
+      213: -6909985682460581506
+    second: PC Computer - Among Us - Gun_251
+  - first:
+      213: -1118271920366804373
+    second: PC Computer - Among Us - Gun_252
+  - first:
+      213: 363608808078115312
+    second: PC Computer - Among Us - Gun_253
+  - first:
+      213: -7688356814374892127
+    second: PC Computer - Among Us - Gun_254
+  - first:
+      213: -408539232926460396
+    second: PC Computer - Among Us - Gun_255
+  - first:
+      213: -513253151973997837
+    second: PC Computer - Among Us - Gun_256
+  - first:
+      213: 8696029818784442568
+    second: PC Computer - Among Us - Gun_257
+  - first:
+      213: 6841802056516669609
+    second: PC Computer - Among Us - Gun_258
+  - first:
+      213: 8600427198776093636
+    second: PC Computer - Among Us - Gun_259
+  - first:
+      213: 6817038615156567622
+    second: PC Computer - Among Us - Gun_260
+  - first:
+      213: 7596830858580147960
+    second: PC Computer - Among Us - Gun_261
+  - first:
+      213: -4441489210769726360
+    second: PC Computer - Among Us - Gun_262
+  - first:
+      213: 6610847928454866527
+    second: PC Computer - Among Us - Gun_263
+  - first:
+      213: -103853912118354102
+    second: PC Computer - Among Us - Gun_264
+  - first:
+      213: -4070209334212359993
+    second: PC Computer - Among Us - Gun_265
+  - first:
+      213: 4469798821910104035
+    second: PC Computer - Among Us - Gun_266
+  - first:
+      213: -8590721812458708521
+    second: PC Computer - Among Us - Gun_267
+  - first:
+      213: 195181331556083393
+    second: PC Computer - Among Us - Gun_268
+  - first:
+      213: 4013041821217582405
+    second: PC Computer - Among Us - Gun_269
+  - first:
+      213: 2649442068302985333
+    second: PC Computer - Among Us - Gun_270
+  - first:
+      213: -398339824497708597
+    second: PC Computer - Among Us - Gun_271
+  - first:
+      213: 6814374976432115231
+    second: PC Computer - Among Us - Gun_272
+  - first:
+      213: -3098178475072100979
+    second: PC Computer - Among Us - Gun_273
+  - first:
+      213: -6201239369928879653
+    second: PC Computer - Among Us - Gun_274
+  - first:
+      213: -3439426337462949600
+    second: PC Computer - Among Us - Gun_275
+  - first:
+      213: -4089516470799974870
+    second: PC Computer - Among Us - Gun_276
+  - first:
+      213: -7886815604986211045
+    second: PC Computer - Among Us - Gun_277
+  - first:
+      213: 1494646591534311662
+    second: PC Computer - Among Us - Gun_278
+  - first:
+      213: 894517721003834071
+    second: PC Computer - Among Us - Gun_279
+  - first:
+      213: -3060079052433418641
+    second: PC Computer - Among Us - Gun_280
+  - first:
+      213: -6925007697018230915
+    second: PC Computer - Among Us - Gun_281
+  - first:
+      213: 8767966266539567359
+    second: PC Computer - Among Us - Gun_282
+  - first:
+      213: 1168926863732060076
+    second: PC Computer - Among Us - Gun_283
+  - first:
+      213: -5528418690719623857
+    second: PC Computer - Among Us - Gun_284
+  - first:
+      213: -5375363131257105866
+    second: PC Computer - Among Us - Gun_285
+  - first:
+      213: 765330228268773824
+    second: PC Computer - Among Us - Gun_286
+  - first:
+      213: -5178436255332756831
+    second: PC Computer - Among Us - Gun_287
+  - first:
+      213: -1585248228918718591
+    second: PC Computer - Among Us - Gun_288
+  - first:
+      213: -5640597789588650747
+    second: PC Computer - Among Us - Gun_289
+  - first:
+      213: -3968056394464640835
+    second: PC Computer - Among Us - Gun_290
+  - first:
+      213: 352450348175880301
+    second: PC Computer - Among Us - Gun_291
+  - first:
+      213: 1293863461552842852
+    second: PC Computer - Among Us - Gun_292
+  - first:
+      213: -5114175635847414730
+    second: PC Computer - Among Us - Gun_293
+  - first:
+      213: 6752686812078077021
+    second: PC Computer - Among Us - Gun_294
+  - first:
+      213: 3113800632285378077
+    second: PC Computer - Among Us - Gun_295
+  - first:
+      213: -4245400697332263711
+    second: PC Computer - Among Us - Gun_296
+  - first:
+      213: 4335556491871168824
+    second: PC Computer - Among Us - Gun_297
+  - first:
+      213: 619466202297054860
+    second: PC Computer - Among Us - Gun_298
+  - first:
+      213: -5606800532368558898
+    second: PC Computer - Among Us - Gun_299
+  - first:
+      213: 14868213664522560
+    second: PC Computer - Among Us - Gun_300
+  - first:
+      213: 1585527566429108853
+    second: PC Computer - Among Us - Gun_301
+  - first:
+      213: 7096214897528987290
+    second: PC Computer - Among Us - Gun_302
+  - first:
+      213: -3395288366999316965
+    second: PC Computer - Among Us - Gun_303
+  - first:
+      213: 3189643961896751917
+    second: PC Computer - Among Us - Gun_304
+  - first:
+      213: 2831512155082113720
+    second: PC Computer - Among Us - Gun_305
+  - first:
+      213: 6122150405388972365
+    second: PC Computer - Among Us - Gun_306
+  - first:
+      213: -6392791437015345636
+    second: PC Computer - Among Us - Gun_307
+  - first:
+      213: 4138210124603461800
+    second: PC Computer - Among Us - Gun_308
+  - first:
+      213: -1329614229589710370
+    second: PC Computer - Among Us - Gun_309
+  - first:
+      213: -645118287398281850
+    second: PC Computer - Among Us - Gun_310
+  - first:
+      213: -7070433830762731173
+    second: PC Computer - Among Us - Gun_311
+  - first:
+      213: 9207975817918925671
+    second: PC Computer - Among Us - Gun_312
+  - first:
+      213: 4990321450619114621
+    second: PC Computer - Among Us - Gun_313
+  - first:
+      213: 5679000221534573910
+    second: PC Computer - Among Us - Gun_314
+  - first:
+      213: 6176245312914187582
+    second: PC Computer - Among Us - Gun_315
+  - first:
+      213: -2698013004471718742
+    second: PC Computer - Among Us - Gun_316
+  - first:
+      213: -681065292222828791
+    second: PC Computer - Among Us - Gun_317
+  - first:
+      213: -2000074014262808991
+    second: PC Computer - Among Us - Gun_318
+  - first:
+      213: 87633019440231832
+    second: PC Computer - Among Us - Gun_319
+  - first:
+      213: 363955356957492825
+    second: PC Computer - Among Us - Gun_320
+  - first:
+      213: -5005562905709461612
+    second: PC Computer - Among Us - Gun_321
+  - first:
+      213: -6913310186501325718
+    second: PC Computer - Among Us - Gun_322
+  - first:
+      213: -2500906440945915320
+    second: PC Computer - Among Us - Gun_323
+  - first:
+      213: 6827616945633167475
+    second: PC Computer - Among Us - Gun_324
+  - first:
+      213: -6163294849554265831
+    second: PC Computer - Among Us - Gun_325
+  - first:
+      213: -388262294937693952
+    second: PC Computer - Among Us - Gun_326
+  - first:
+      213: -8493660466957897534
+    second: PC Computer - Among Us - Gun_327
+  - first:
+      213: 4989673628659485927
+    second: PC Computer - Among Us - Gun_328
+  - first:
+      213: -8871360459195784491
+    second: PC Computer - Among Us - Gun_329
+  - first:
+      213: 3192156047621543681
+    second: PC Computer - Among Us - Gun_330
+  - first:
+      213: -8134845467027801191
+    second: PC Computer - Among Us - Gun_331
+  - first:
+      213: 1509293383290878148
+    second: PC Computer - Among Us - Gun_332
+  - first:
+      213: -5568071280540384880
+    second: PC Computer - Among Us - Gun_333
+  - first:
+      213: 807873881251551727
+    second: PC Computer - Among Us - Gun_334
+  - first:
+      213: 163353678082428182
+    second: PC Computer - Among Us - Gun_335
+  - first:
+      213: -301725013673336446
+    second: PC Computer - Among Us - Gun_336
+  - first:
+      213: 2417556369848243710
+    second: PC Computer - Among Us - Gun_337
+  - first:
+      213: -6110875156714852190
+    second: PC Computer - Among Us - Gun_338
+  - first:
+      213: -2967252742903415935
+    second: PC Computer - Among Us - Gun_339
+  - first:
+      213: 3368697442016825322
+    second: PC Computer - Among Us - Gun_340
+  - first:
+      213: -983312046723617185
+    second: PC Computer - Among Us - Gun_341
+  - first:
+      213: 1886031493753579963
+    second: PC Computer - Among Us - Gun_342
+  - first:
+      213: -1156064923596365026
+    second: PC Computer - Among Us - Gun_343
+  - first:
+      213: 3597522881088462136
+    second: PC Computer - Among Us - Gun_344
+  - first:
+      213: -7433202229920921771
+    second: PC Computer - Among Us - Gun_345
+  - first:
+      213: 2013014316779297347
+    second: PC Computer - Among Us - Gun_346
+  - first:
+      213: -2400661902952172803
+    second: PC Computer - Among Us - Gun_347
+  - first:
+      213: 4477109374203102401
+    second: PC Computer - Among Us - Gun_348
+  - first:
+      213: 1012431591551428983
+    second: PC Computer - Among Us - Gun_349
+  - first:
+      213: -5580741094803692943
+    second: PC Computer - Among Us - Gun_350
+  - first:
+      213: -5958089451690130605
+    second: PC Computer - Among Us - Gun_351
+  - first:
+      213: 6856255427711601359
+    second: PC Computer - Among Us - Gun_352
+  - first:
+      213: 7981243806536100224
+    second: PC Computer - Among Us - Gun_353
+  - first:
+      213: 4616079840890718297
+    second: PC Computer - Among Us - Gun_354
+  - first:
+      213: 7202834205180971932
+    second: PC Computer - Among Us - Gun_355
+  - first:
+      213: 832156785345536362
+    second: PC Computer - Among Us - Gun_356
+  - first:
+      213: -3123251015800212941
+    second: PC Computer - Among Us - Gun_357
+  - first:
+      213: 2501008485947193717
+    second: PC Computer - Among Us - Gun_358
+  - first:
+      213: 1860215691095233996
+    second: PC Computer - Among Us - Gun_359
+  - first:
+      213: -5117158844733633027
+    second: PC Computer - Among Us - Gun_360
+  - first:
+      213: 7234628130933435499
+    second: PC Computer - Among Us - Gun_361
+  - first:
+      213: -8164619013653024279
+    second: PC Computer - Among Us - Gun_362
+  - first:
+      213: -6742242266258086864
+    second: PC Computer - Among Us - Gun_363
+  - first:
+      213: -71614190170408417
+    second: PC Computer - Among Us - Gun_364
+  - first:
+      213: 836566198206510820
+    second: PC Computer - Among Us - Gun_365
+  - first:
+      213: -8327490143580346411
+    second: PC Computer - Among Us - Gun_366
+  - first:
+      213: -6413237497268265374
+    second: PC Computer - Among Us - Gun_367
+  - first:
+      213: 2911996165797488429
+    second: PC Computer - Among Us - Gun_368
+  - first:
+      213: -2956934684380982394
+    second: PC Computer - Among Us - Gun_369
+  - first:
+      213: 266992802796897651
+    second: PC Computer - Among Us - Gun_370
+  - first:
+      213: -1758532784893698912
+    second: PC Computer - Among Us - Gun_371
+  - first:
+      213: 125682687442798011
+    second: PC Computer - Among Us - Gun_372
+  - first:
+      213: -888933569924015970
+    second: PC Computer - Among Us - Gun_373
+  - first:
+      213: 1390626136138717844
+    second: PC Computer - Among Us - Gun_374
+  - first:
+      213: 8211313840686110776
+    second: PC Computer - Among Us - Gun_375
+  - first:
+      213: 2488692944756316436
+    second: PC Computer - Among Us - Gun_376
+  - first:
+      213: -4682883220844136650
+    second: PC Computer - Among Us - Gun_377
+  - first:
+      213: -8993346924316738104
+    second: PC Computer - Among Us - Gun_378
+  - first:
+      213: 541217415506085702
+    second: PC Computer - Among Us - Gun_379
+  - first:
+      213: -6715689180552572207
+    second: PC Computer - Among Us - Gun_380
+  - first:
+      213: -5044009731565026651
+    second: PC Computer - Among Us - Gun_381
+  - first:
+      213: 3918873095849787949
+    second: PC Computer - Among Us - Gun_382
+  - first:
+      213: -1875367836261247674
+    second: PC Computer - Among Us - Gun_383
+  - first:
+      213: -6847178033832045664
+    second: PC Computer - Among Us - Gun_384
+  - first:
+      213: 169134132836358787
+    second: PC Computer - Among Us - Gun_385
+  - first:
+      213: 3764828942736970097
+    second: PC Computer - Among Us - Gun_386
+  - first:
+      213: -3313313331482748729
+    second: PC Computer - Among Us - Gun_387
+  - first:
+      213: 8677545106714086946
+    second: PC Computer - Among Us - Gun_388
+  - first:
+      213: 8877397005704298482
+    second: PC Computer - Among Us - Gun_389
+  - first:
+      213: 855055013167918456
+    second: PC Computer - Among Us - Gun_390
+  - first:
+      213: -2059259322960854599
+    second: PC Computer - Among Us - Gun_391
+  - first:
+      213: -5531043857025916170
+    second: PC Computer - Among Us - Gun_392
+  - first:
+      213: 2636082903191319422
+    second: PC Computer - Among Us - Gun_393
+  - first:
+      213: -91716198795629945
+    second: PC Computer - Among Us - Gun_394
+  - first:
+      213: -7170596646942371671
+    second: PC Computer - Among Us - Gun_395
+  - first:
+      213: -780449026865578999
+    second: PC Computer - Among Us - Gun_396
+  - first:
+      213: -7803624605102366112
+    second: PC Computer - Among Us - Gun_397
+  - first:
+      213: -754227447571901583
+    second: PC Computer - Among Us - Gun_398
+  - first:
+      213: 4390626734851781562
+    second: PC Computer - Among Us - Gun_399
+  - first:
+      213: 4941597031581474487
+    second: PC Computer - Among Us - Gun_400
+  - first:
+      213: 1867816454406042381
+    second: PC Computer - Among Us - Gun_401
+  - first:
+      213: 4471815078148802751
+    second: PC Computer - Among Us - Gun_402
+  - first:
+      213: 101789225334166109
+    second: PC Computer - Among Us - Gun_403
+  - first:
+      213: -8150797895189290193
+    second: PC Computer - Among Us - Gun_404
+  - first:
+      213: -8756458232632467168
+    second: PC Computer - Among Us - Gun_405
+  - first:
+      213: 7981632760114868483
+    second: PC Computer - Among Us - Gun_406
+  - first:
+      213: -7760602923028870948
+    second: PC Computer - Among Us - Gun_407
+  - first:
+      213: -285193647636046317
+    second: PC Computer - Among Us - Gun_408
+  - first:
+      213: 7393518007081202162
+    second: PC Computer - Among Us - Gun_409
+  - first:
+      213: -5059628811278144487
+    second: PC Computer - Among Us - Gun_410
+  - first:
+      213: 4417897084296378972
+    second: PC Computer - Among Us - Gun_411
+  - first:
+      213: -7992309447789324287
+    second: PC Computer - Among Us - Gun_412
+  - first:
+      213: 5901341265007634090
+    second: PC Computer - Among Us - Gun_413
+  - first:
+      213: -6666317487517913248
+    second: PC Computer - Among Us - Gun_414
+  - first:
+      213: -4032458119092874649
+    second: PC Computer - Among Us - Gun_415
+  - first:
+      213: 3007490851641268188
+    second: PC Computer - Among Us - Gun_416
+  - first:
+      213: 8082188194803194147
+    second: PC Computer - Among Us - Gun_417
+  - first:
+      213: 7385554108057141701
+    second: PC Computer - Among Us - Gun_418
+  - first:
+      213: -1778766729632517645
+    second: PC Computer - Among Us - Gun_419
+  - first:
+      213: -3696825221816708595
+    second: PC Computer - Among Us - Gun_420
+  - first:
+      213: 2174429804726645764
+    second: PC Computer - Among Us - Gun_421
+  - first:
+      213: -2785064721494326138
+    second: PC Computer - Among Us - Gun_422
+  - first:
+      213: 5433874838390227163
+    second: PC Computer - Among Us - Gun_423
+  - first:
+      213: -5756150573069253044
+    second: PC Computer - Among Us - Gun_424
+  - first:
+      213: 7324279330339289233
+    second: PC Computer - Among Us - Gun_425
+  - first:
+      213: 1827034432313023220
+    second: PC Computer - Among Us - Gun_426
+  - first:
+      213: -9082085269899255767
+    second: PC Computer - Among Us - Gun_427
+  - first:
+      213: -4810721999691801663
+    second: PC Computer - Among Us - Gun_428
+  - first:
+      213: -7956309361297920427
+    second: PC Computer - Among Us - Gun_429
+  - first:
+      213: 990063737433283421
+    second: PC Computer - Among Us - Gun_430
+  - first:
+      213: 2160760231569213412
+    second: PC Computer - Among Us - Gun_431
+  - first:
+      213: 1403799819529874138
+    second: PC Computer - Among Us - Gun_432
+  - first:
+      213: -7221482352658853045
+    second: PC Computer - Among Us - Gun_433
+  - first:
+      213: 7809881150894560693
+    second: PC Computer - Among Us - Gun_434
+  - first:
+      213: -1012184840557773357
+    second: PC Computer - Among Us - Gun_435
+  - first:
+      213: 302504971606385206
+    second: PC Computer - Among Us - Gun_436
+  - first:
+      213: -7659540603183187912
+    second: PC Computer - Among Us - Gun_437
+  - first:
+      213: 4258748771927681573
+    second: PC Computer - Among Us - Gun_438
+  - first:
+      213: -5088060981983076926
+    second: PC Computer - Among Us - Gun_439
+  - first:
+      213: -8118336909873543195
+    second: PC Computer - Among Us - Gun_440
+  - first:
+      213: -3113628160008033658
+    second: PC Computer - Among Us - Gun_441
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.3268332, y: 0.9279946}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 1511, z: 423, w: 69}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1511
+        width: 77
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5813639131210f50800000000000000
+      internalID: 6845789405389723741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1511
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9965d93a8f4256e60800000000000000
+      internalID: 7954804967135336089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1512
+        width: 77
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517ec9eebf5baa8d0800000000000000
+      internalID: -2834252921831626987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_3
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1512
+        width: 79
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a0fa43bdb637b70800000000000000
+      internalID: 8895572278212758099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1516
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54e8c812e8b16650800000000000000
+      internalID: 6224459441220674654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_5
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1515
+        width: 80
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818a25d38def22900800000000000000
+      internalID: 658368700244731928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_6
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1515
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e2646aab3975010800000000000000
+      internalID: 1177572257443491390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_7
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1505
+        width: 115
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bc9e74a76d26690800000000000000
+      internalID: -7610284599621858427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_8
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1502
+        width: 113
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1987c7612127f810800000000000000
+      internalID: 1798943003516569887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_9
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1502
+        width: 114
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550fcf3f20789ce40800000000000000
+      internalID: 5677217252030345301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1372
+        width: 114
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4269989a1d3b75c0800000000000000
+      internalID: -4216709441663704498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Gun_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1374
+        width: 114
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a1d1f46b9752380800000000000000
+      internalID: -8996650856684381693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
