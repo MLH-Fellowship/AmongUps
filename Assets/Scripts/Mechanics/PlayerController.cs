@@ -35,6 +35,7 @@ namespace Platformer.Mechanics
         public bool controlEnabled = true;
 
         bool jump;
+        bool prevDead = false;
         Vector2 move;
         SpriteRenderer spriteRenderer;
         internal Animator animator;
@@ -53,7 +54,7 @@ namespace Platformer.Mechanics
 
         protected override void Update()
         {
-            if (controlEnabled)
+            if (controlEnabled && health.IsAlive)
             {
                 move.x = gameObject.CompareTag("Crewmate") ? Input.GetAxis("Horizontal") : Input.GetAxis("Horizontal-2");
                 bool jumpKeyDown = gameObject.CompareTag("Crewmate") ? Input.GetButtonDown("Jump") : Input.GetButtonDown("Jump-2");
@@ -75,6 +76,10 @@ namespace Platformer.Mechanics
             else
             {
                 move.x = 0;
+            }
+            if(!health.IsAlive && !prevDead) {
+                animator.Play("Player-Death");
+                prevDead = true;
             }
             UpdateJumpState();
             base.Update();

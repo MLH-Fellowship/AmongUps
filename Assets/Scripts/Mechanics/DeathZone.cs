@@ -15,11 +15,16 @@ namespace Platformer.Mechanics
         void OnTriggerEnter2D(Collider2D collider)
         {
             var p = collider.gameObject.GetComponent<PlayerController>();
+            var health = collider.gameObject.GetComponent<Health>();
             if (p != null)
             {
-                var ev = Schedule<PlayerEnteredDeathZone>();
+                var ev = Schedule<PlayerEnteredDeathZone>(0);
+                // ev.player = collider.gameObject;
                 ev.deathzone = this;
+                ev.player = p;
+                health.Die();
             }
+            
         }
     }
 }
