@@ -14,11 +14,10 @@ namespace Platformer.Gameplay
         public DeathZone deathzone;
 
         PlatformerModel model = Simulation.GetModel<PlatformerModel>();
-        public PlayerController player;
 
         public override void Execute()
         {
-            Simulation.Schedule<PlayerDeath>(0).player = player;
+            Simulation.Schedule<PlayerDeath>(0);
         }
     }
 }

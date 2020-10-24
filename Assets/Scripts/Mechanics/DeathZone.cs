@@ -19,9 +19,7 @@ namespace Platformer.Mechanics
             if (p != null)
             {
                 var ev = Schedule<PlayerEnteredDeathZone>(0);
-                // ev.player = collider.gameObject;
                 ev.deathzone = this;
-                ev.player = p;
                 health.Die();
             }
             

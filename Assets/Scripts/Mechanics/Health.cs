@@ -39,7 +39,6 @@ namespace Platformer.Mechanics
             currentHP = Mathf.Clamp(currentHP - 1, 0, maxHP);
             if (currentHP == 0)
             {
-                Debug.Log("Player is supposed to be dead now!");
                 var ev = Schedule<HealthIsZero>();
                 ev.health = this;
             }
