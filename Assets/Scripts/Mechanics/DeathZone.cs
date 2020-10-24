@@ -20,7 +20,7 @@ namespace Platformer.Mechanics
             {
                 var ev = Schedule<PlayerEnteredDeathZone>(0);
                 ev.deathzone = this;
-                health.Die();
+                health.Decrement();
             }
             
         }

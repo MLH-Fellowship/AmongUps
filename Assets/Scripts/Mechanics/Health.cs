@@ -1,6 +1,7 @@
 using System;
 using Platformer.Gameplay;
 using UnityEngine;
+using UnityEngine.UI;
 using static Platformer.Core.Simulation;
 
 namespace Platformer.Mechanics
@@ -14,6 +15,9 @@ namespace Platformer.Mechanics
         /// The maximum hit points for the entity.
         /// </summary>
         public int maxHP = 1;
+        public Slider slider;
+        public Gradient gradient;
+        public Image fill;
 
         /// <summary>
         /// Indicates if the entity should be considered 'alive'.
@@ -28,6 +32,8 @@ namespace Platformer.Mechanics
         public void Increment()
         {
             currentHP = Mathf.Clamp(currentHP + 1, 0, maxHP);
+            slider.value = currentHP;
+            fill.color = gradient.Evaluate(slider.normalizedValue);
         }
 
         /// <summary>
@@ -42,6 +48,8 @@ namespace Platformer.Mechanics
                 var ev = Schedule<HealthIsZero>();
                 ev.health = this;
             }
+            slider.value = currentHP; 
+            fill.color = gradient.Evaluate(slider.normalizedValue);
         }
 
         /// <summary>
@@ -55,6 +63,8 @@ namespace Platformer.Mechanics
         void Awake()
         {
             currentHP = maxHP;
+            slider.maxValue = maxHP;
+            fill.color = gradient.Evaluate(slider.normalizedValue);
         }
     }
 }
