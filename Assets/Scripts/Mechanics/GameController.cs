@@ -11,14 +11,7 @@ namespace Platformer.Mechanics
     public class GameController : MonoBehaviour
     {
         public static GameController Instance { get; private set; }
-
-        //This model field is public and can be therefore be modified in the 
-        //inspector.
-        //The reference actually comes from the InstanceRegister, and is shared
-        //through the simulation and events. Unity will deserialize over this
-        //shared reference when the scene loads, allowing the model to be
-        //conveniently configured inside the inspector.
-        public PlatformerModel model = Simulation.GetModel<PlatformerModel>();
+        public PlayerController impostor, crewmate;
 
         void OnEnable()
         {
@@ -32,7 +25,35 @@ namespace Platformer.Mechanics
 
         void Update()
         {
-            if (Instance == this) Simulation.Tick();
+            if(impostor.health.IsAlive && crewmate.health.IsAlive) {
+                // both players alive and fighting
+            }
+            else if (!impostor.health.IsAlive && !impostor.playerDead) {
+                // impostor is dead
+                crewmate.incrementScore();
+                impostor.Dead();
+                CheckForWinner();
+            }
+            else if (!crewmate.health.IsAlive && !crewmate.playerDead) {
+                // crewmate is dead
+                impostor.incrementScore();
+                crewmate.Dead();
+                CheckForWinner();
+            }
+        }
+
+        void CheckForWinner() {
+            if(impostor.playerScore >= 3) {
+                // declare impostor as Winner
+            }
+            else if (crewmate.playerScore >= 3) {
+                // declare crewmate as Winner
+            }
+            else {
+                // new round - display powerups
+                impostor.Respawn();
+                crewmate.Respawn();
+            }
         }
     }
 }
