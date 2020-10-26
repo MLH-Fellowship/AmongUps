@@ -28,6 +28,15 @@ namespace Platformer.Mechanics
             else if (powerUpName == "damage") {
                 player.attackDamage += 1;
             }
+            else if (powerUpName == "health") {
+                player.health.maxHP += 5;
+            }
+            else if (powerUpName == "jump") {
+                player.jumpTakeOffSpeed += 2;
+            }
+            else if (powerUpName == "attackRange") {
+                player.attackRange += 1;
+            }
         }
     }
 }

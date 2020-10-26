@@ -13,19 +13,21 @@ namespace Platformer.Mechanics
     public class PowerUps : MonoBehaviour
     {
         List<PowerUp> powerUpsList;
-        public Sprite speedIcon, damageIcon;
+        public Sprite speedIcon, damageIcon, healthIcon, jumpIcon, attackRangeIcon;
         
         void Awake() {
-            // Initialize powerup list
-            powerUpsList = new List<PowerUp>();
+            // Declare powerups
+            PowerUp speed, damage, health, jump, attackRange;
 
             // Initialize powerups
-            PowerUp speed = new PowerUp("speed", "+ Speed", speedIcon);
-            PowerUp damage = new PowerUp("damage", "+ Damage", damageIcon);
+            speed = new PowerUp("speed", "+ Speed", speedIcon);
+            damage = new PowerUp("damage", "+ Damage", damageIcon);
+            health = new PowerUp("health", "+ Health", healthIcon);
+            jump = new PowerUp("jump", "+ Jump", jumpIcon);
+            attackRange = new PowerUp("attackRange", "+ Attack Range", attackRangeIcon);
 
-            // Add powerups to list
-            powerUpsList.Add(speed);
-            powerUpsList.Add(damage);
+            // Initialize list & Add powerups to it
+            powerUpsList = new List<PowerUp>() {speed, damage, health, jump, attackRange};
         }
 
         public List<PowerUp> ChooseRandomPowerUps() {
