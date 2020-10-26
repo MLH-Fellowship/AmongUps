@@ -5,6 +5,7 @@ using Platformer.Gameplay;
 using static Platformer.Core.Simulation;
 using Platformer.Model;
 using Platformer.Core;
+using UnityEngine.UI;
 using TMPro;
 
 namespace Platformer.Mechanics
@@ -20,6 +21,8 @@ namespace Platformer.Mechanics
         public AudioClip ouchAudio;
 
         public TextMeshProUGUI scoreKeeper;
+
+        public GameObject powerUpsPanel;
 
         /// <summary>
         /// Max horizontal speed of the player.
@@ -54,7 +57,9 @@ namespace Platformer.Mechanics
         float nextAttackTime = 0f;
 
         public int playerScore = 0;
-        public bool playerDead = false;
+        public bool isDead = false;
+
+        List<PowerUp> powerUps;
 
         public LayerMask enemyLayer;
         bool isSpriteFlipped;
@@ -67,11 +72,12 @@ namespace Platformer.Mechanics
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
             isSpriteFlipped = spriteRenderer.flipX;
+            powerUps = new List<PowerUp>();
         }
 
         protected override void Update()
         {
-            if (controlEnabled && !playerDead)
+            if (controlEnabled && !isDead)
             {
                 //
                 if(spriteRenderer.flipX != isSpriteFlipped) {
@@ -186,14 +192,26 @@ namespace Platformer.Mechanics
         public void Dead()
         {
             animator.Play("Player-Death");
-            playerDead = true;
+            isDead = true;
         }
 
         public void Respawn() {
+            isDead = false;
             health.Respawn();
             transform.position = spawnPoint.position;
             animator.Play("Player-Spawn");
-            playerDead = false;
+        }
+
+        public void AddPowerUp(PowerUp newPowerUp) {
+            powerUps.Add(newPowerUp);
+            newPowerUp.Execute(this);
+            GameObject powerUpObject = new GameObject(newPowerUp.powerUpName);
+            powerUpObject.transform.SetParent(powerUpsPanel.transform);
+            RectTransform trans = powerUpObject.AddComponent<RectTransform>();
+            Image powerUpImage = powerUpObject.AddComponent<Image>();
+            powerUpImage.sprite = newPowerUp.powerUpIcon;
+            trans.localScale = new Vector3 (1f, 1f, 1f);
+            powerUpImage.preserveAspect = true;
         }
 
         public enum JumpState
