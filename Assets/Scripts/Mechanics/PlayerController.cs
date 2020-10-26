@@ -22,6 +22,8 @@ namespace Platformer.Mechanics
 
         public TextMeshProUGUI scoreKeeper;
 
+        public GameObject powerUpsPanel;
+
         /// <summary>
         /// Max horizontal speed of the player.
         /// </summary>
@@ -203,6 +205,13 @@ namespace Platformer.Mechanics
         public void AddPowerUp(PowerUp newPowerUp) {
             powerUps.Add(newPowerUp);
             newPowerUp.Execute(this);
+            GameObject powerUpObject = new GameObject(newPowerUp.powerUpName);
+            powerUpObject.transform.SetParent(powerUpsPanel.transform);
+            RectTransform trans = powerUpObject.AddComponent<RectTransform>();
+            Image powerUpImage = powerUpObject.AddComponent<Image>();
+            powerUpImage.sprite = newPowerUp.powerUpIcon;
+            trans.localScale = new Vector3 (1f, 1f, 1f);
+            powerUpImage.preserveAspect = true;
         }
 
         public enum JumpState
