@@ -5,6 +5,7 @@ using Platformer.Gameplay;
 using static Platformer.Core.Simulation;
 using Platformer.Model;
 using Platformer.Core;
+using TMPro;
 
 namespace Platformer.Mechanics
 {
@@ -17,6 +18,8 @@ namespace Platformer.Mechanics
         public AudioClip jumpAudio;
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
+
+        public TextMeshProUGUI scoreKeeper;
 
         /// <summary>
         /// Max horizontal speed of the player.
@@ -35,13 +38,26 @@ namespace Platformer.Mechanics
         public bool controlEnabled = true;
 
         bool jump;
-        bool prevDead = false;
         Vector2 move;
         SpriteRenderer spriteRenderer;
         internal Animator animator;
         readonly PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
         public Bounds Bounds => collider2d.bounds;
+
+        public Transform attackPoint, spawnPoint;
+        public float attackRange = 0.5f;
+
+        public int attackDamage = 1;
+
+        public float attackRate = 2f;
+        float nextAttackTime = 0f;
+
+        public int playerScore = 0;
+        public bool playerDead = false;
+
+        public LayerMask enemyLayer;
+        bool isSpriteFlipped;
 
         void Awake()
         {
@@ -50,12 +66,20 @@ namespace Platformer.Mechanics
             collider2d = GetComponent<Collider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+            isSpriteFlipped = spriteRenderer.flipX;
         }
 
         protected override void Update()
         {
-            if (controlEnabled && health.IsAlive)
+            if (controlEnabled && !playerDead)
             {
+                //
+                if(spriteRenderer.flipX != isSpriteFlipped) {
+                    Vector3 newPos = new Vector3(attackPoint.transform.localPosition.x * -1f, 0f, 0f);
+                    attackPoint.transform.localPosition = newPos;
+                    isSpriteFlipped = spriteRenderer.flipX;
+                }
+
                 move.x = gameObject.CompareTag("Crewmate") ? Input.GetAxis("Horizontal") : Input.GetAxis("Horizontal-2");
                 bool jumpKeyDown = gameObject.CompareTag("Crewmate") ? Input.GetButtonDown("Jump") : Input.GetButtonDown("Jump-2");
                 bool jumpKeyUp = gameObject.CompareTag("Crewmate") ? Input.GetButtonUp("Jump") : Input.GetButtonUp("Jump-2");
@@ -69,20 +93,32 @@ namespace Platformer.Mechanics
                 }
 
                 bool attackKey = gameObject.CompareTag("Crewmate") ? Input.GetButtonDown("Attack") : Input.GetButtonDown("Attack-2");
-                if (attackKey) {
-                    animator.Play("Player-Attack");
+                if (Time.time >= nextAttackTime) {
+                    if (attackKey) {
+                        Attack();
+                        nextAttackTime = Time.time + 1f / attackRate;
+                    }
                 }
+
+
             }
             else
             {
                 move.x = 0;
             }
-            if(!health.IsAlive && !prevDead) {
-                animator.Play("Player-Death");
-                prevDead = true;
-            }
             UpdateJumpState();
             base.Update();
+        }
+
+        void Attack() {
+            // Play attack animation
+            animator.SetTrigger("attack");
+            // Detect enemy in range of attack
+            Collider2D[] hitEnemy = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
+            // Decrease enemy health
+            foreach(Collider2D enemy in hitEnemy) {
+                enemy.GetComponent<Health>().Decrement(attackDamage);
+            }
         }
 
         void UpdateJumpState()
@@ -140,6 +176,24 @@ namespace Platformer.Mechanics
             animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
 
             targetVelocity = move * maxSpeed;
+        }
+
+        public void incrementScore() {
+            playerScore = playerScore + 1;
+            scoreKeeper.text = $"{playerScore}";
+        }
+
+        public void Dead()
+        {
+            animator.Play("Player-Death");
+            playerDead = true;
+        }
+
+        public void Respawn() {
+            health.Respawn();
+            transform.position = spawnPoint.position;
+            animator.Play("Player-Spawn");
+            playerDead = false;
         }
 
         public enum JumpState
