@@ -1,5 +1,7 @@
 using Platformer.Core;
 using Platformer.Model;
+using System.Collections;
+using UnityEngine.UI;
 using UnityEngine;
 
 namespace Platformer.Mechanics
@@ -13,6 +15,11 @@ namespace Platformer.Mechanics
         public static GameController Instance { get; private set; }
         public PlayerController impostor, crewmate;
 
+        public PowerupMenuController powerupMenu;
+
+        public GameObject victoryScreen;
+
+
         void OnEnable()
         {
             Instance = this;
@@ -23,34 +30,44 @@ namespace Platformer.Mechanics
             if (Instance == this) Instance = null;
         }
 
+        void Start() {
+            victoryScreen.SetActive(false);
+        }
+
         void Update()
         {
-            if(impostor.health.IsAlive && crewmate.health.IsAlive) {
-                // both players alive and fighting
-            }
-            else if (!impostor.health.IsAlive && !impostor.playerDead) {
+            if (!impostor.health.IsAlive && !impostor.isDead) {
                 // impostor is dead
-                crewmate.incrementScore();
                 impostor.Dead();
-                CheckForWinner();
+                crewmate.incrementScore();
+                powerupMenu.SetWinnerAndLoser(crewmate, impostor);
+                StartCoroutine(CheckForWinner());
             }
-            else if (!crewmate.health.IsAlive && !crewmate.playerDead) {
+            else if (!crewmate.health.IsAlive && !crewmate.isDead) {
                 // crewmate is dead
-                impostor.incrementScore();
                 crewmate.Dead();
-                CheckForWinner();
+                impostor.incrementScore();
+                powerupMenu.SetWinnerAndLoser(impostor, crewmate);
+                StartCoroutine(CheckForWinner());
             }
         }
 
-        void CheckForWinner() {
+        IEnumerator CheckForWinner() {
+            yield return new WaitForSeconds(3f);
             if(impostor.playerScore >= 3) {
                 // declare impostor as Winner
+                victoryScreen.SetActive(true);
+                victoryScreen.transform.GetChild(1).GetComponent<Image>().color = new Color32(255, 243, 0, 255);
             }
             else if (crewmate.playerScore >= 3) {
                 // declare crewmate as Winner
+                victoryScreen.SetActive(true);
+                victoryScreen.transform.GetChild(1).GetComponent<Image>().color = new Color32(0, 255, 255, 255);
             }
             else {
                 // new round - display powerups
+                powerupMenu.Show();
+
                 impostor.Respawn();
                 crewmate.Respawn();
             }
