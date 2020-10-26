@@ -23,7 +23,7 @@ namespace Platformer.Mechanics
 
         public void Execute(PlayerController player) {
             if (powerUpName == "speed") {
-                player.maxSpeed += 3;
+                player.maxSpeed += 2;
             }
             else if (powerUpName == "damage") {
                 player.attackDamage += 1;
@@ -35,7 +35,7 @@ namespace Platformer.Mechanics
                 player.jumpTakeOffSpeed += 2;
             }
             else if (powerUpName == "attackRange") {
-                player.attackRange += 1;
+                player.attackRange += 0.25f;
             }
         }
     }
