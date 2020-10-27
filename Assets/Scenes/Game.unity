@@ -1125,6 +1125,7 @@ MonoBehaviour:
   healthIcon: {fileID: 21300000, guid: 1a200d0f8ee37ac49aa03657d1f9516a, type: 3}
   jumpIcon: {fileID: 21300000, guid: 3aff1fd33717e3745aefe3c59ca5567d, type: 3}
   attackRangeIcon: {fileID: 21300000, guid: 619d39046369a1746aff2cfd390cf2b2, type: 3}
+  attackRateIcon: {fileID: 21300000, guid: be846a48238835c40961b6b5ee498307, type: 3}
 --- !u!1 &292457041
 GameObject:
   m_ObjectHideFlags: 0
