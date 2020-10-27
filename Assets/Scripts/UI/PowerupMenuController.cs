@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using Platformer.Mechanics;
+using TMPro;
 
 public class PowerupMenuController : MonoBehaviour
 {
@@ -10,9 +11,9 @@ public class PowerupMenuController : MonoBehaviour
 
     public GameObject powerupMenuUI;
 
-    public PowerUps powerUps;
+    PowerUps powerUps;
 
-    public Text leftTextBox, rightTextBox;
+    public TextMeshProUGUI leftTextBox, rightTextBox, topText, bottomText;
 
     public Image leftImage, rightImage;
 
@@ -41,6 +42,8 @@ public class PowerupMenuController : MonoBehaviour
     public void SetWinnerAndLoser(PlayerController playerWon, PlayerController playerLost) {
         winner = playerWon;
         loser = playerLost;
+        topText.text = $"{winner.name}\nChoose A PowerUp";
+        bottomText.text = $"Careful! The PowerUp you don't choose will Go to {loser.name}";
     }
 
     public void Show () {
