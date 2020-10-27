@@ -79,7 +79,7 @@ namespace Platformer.Mechanics
         {
             if (controlEnabled && !isDead)
             {
-                //
+                // flips the attack point on basis of where the player is facing
                 if(spriteRenderer.flipX != isSpriteFlipped) {
                     Vector3 newPos = new Vector3(attackPoint.transform.localPosition.x * -1f, 0f, 0f);
                     attackPoint.transform.localPosition = newPos;

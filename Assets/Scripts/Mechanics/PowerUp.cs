@@ -20,6 +20,7 @@ namespace Platformer.Mechanics
         const int HEALTH_INCREMENT = 5;
         const int JUMP_INCREMENT = 2;
         const float RANGE_INCREMENT = 0.5f;
+        const float RATE_INCREMENT = 1f;
         
 
         public PowerUp(string name, string text, Sprite icon) {
@@ -43,6 +44,9 @@ namespace Platformer.Mechanics
             }
             else if (powerUpName == "attackRange") {
                 player.attackRange += RANGE_INCREMENT;
+            }
+            else if (powerUpName == "attackRate") {
+                player.attackRate += RATE_INCREMENT;
             }
         }
     }
