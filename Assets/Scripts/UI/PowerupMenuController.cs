@@ -8,7 +8,6 @@ public class PowerupMenuController : MonoBehaviour
 {
     public static bool PowerupScreen = false;
 
-    
     public GameObject powerupMenuUI;
 
     public PowerUps powerUps;

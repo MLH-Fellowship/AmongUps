@@ -14,7 +14,7 @@ namespace Platformer.Mechanics
         /// <summary>
         /// The maximum hit points for the entity.
         /// </summary>
-        public int maxHP = 1;
+        public int maxHP;
         public Slider slider;
         public Gradient gradient;
         public Image fill;
@@ -23,6 +23,9 @@ namespace Platformer.Mechanics
         /// Indicates if the entity should be considered 'alive'.
         /// </summary>
         public bool IsAlive => currentHP > 0;
+
+        public const int DEFAULT_HP = 20;
+
 
         int currentHP;
 
@@ -67,15 +70,20 @@ namespace Platformer.Mechanics
 
         public void Respawn()
         {
-            Awake();
+            Reset();
         }
 
-        void Awake()
-        {
+        void Reset() {
             currentHP = maxHP;
             slider.maxValue = maxHP;
             slider.value = currentHP; 
             fill.color = gradient.Evaluate(slider.normalizedValue);
+        }
+
+        void Awake()
+        {
+            maxHP = DEFAULT_HP;
+            Reset();
         }
     }
 }

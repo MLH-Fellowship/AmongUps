@@ -3,6 +3,8 @@ using Platformer.Model;
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 namespace Platformer.Mechanics
 {
@@ -19,6 +21,7 @@ namespace Platformer.Mechanics
 
         public GameObject victoryScreen;
 
+        PlayerController winner, loser;
 
         void OnEnable()
         {
@@ -40,14 +43,16 @@ namespace Platformer.Mechanics
                 // impostor is dead
                 impostor.Dead();
                 crewmate.incrementScore();
-                powerupMenu.SetWinnerAndLoser(crewmate, impostor);
+                winner = crewmate;
+                loser = impostor;
                 StartCoroutine(CheckForWinner());
             }
             else if (!crewmate.health.IsAlive && !crewmate.isDead) {
                 // crewmate is dead
                 crewmate.Dead();
                 impostor.incrementScore();
-                powerupMenu.SetWinnerAndLoser(impostor, crewmate);
+                winner = impostor;
+                loser = crewmate;
                 StartCoroutine(CheckForWinner());
             }
         }
@@ -65,12 +70,17 @@ namespace Platformer.Mechanics
                 victoryScreen.transform.GetChild(1).GetComponent<Image>().color = new Color32(0, 255, 255, 255);
             }
             else {
+                powerupMenu.SetWinnerAndLoser(winner, loser);
                 // new round - display powerups
                 powerupMenu.Show();
-
+                yield return new WaitForSeconds(0.5f);
                 impostor.Respawn();
                 crewmate.Respawn();
             }
+        }
+
+        public void PlayAgain() {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

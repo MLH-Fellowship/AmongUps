@@ -51,7 +51,7 @@ namespace Platformer.Mechanics
         public Transform attackPoint, spawnPoint;
         public float attackRange = 0.5f;
 
-        public int attackDamage = 1;
+        public int attackDamage = 2;
 
         public float attackRate = 2f;
         float nextAttackTime = 0f;
@@ -124,6 +124,8 @@ namespace Platformer.Mechanics
             // Decrease enemy health
             foreach(Collider2D enemy in hitEnemy) {
                 enemy.GetComponent<Health>().Decrement(attackDamage);
+                if(enemy.GetComponent<Health>().IsAlive)
+                    enemy.GetComponent<Animator>().Play("Player-Hurt");
             }
         }
 
@@ -203,13 +205,19 @@ namespace Platformer.Mechanics
         }
 
         public void AddPowerUp(PowerUp newPowerUp) {
+            // add powerUp to player's list of powerups
             powerUps.Add(newPowerUp);
+
+            // pass player controller to execute function of the powerup to modify player variables
             newPowerUp.Execute(this);
+
+            // add image of powerUp Icon to the powerUp panel under player's health bar
             GameObject powerUpObject = new GameObject(newPowerUp.powerUpName);
             powerUpObject.transform.SetParent(powerUpsPanel.transform);
             RectTransform trans = powerUpObject.AddComponent<RectTransform>();
             Image powerUpImage = powerUpObject.AddComponent<Image>();
             powerUpImage.sprite = newPowerUp.powerUpIcon;
+            // keep original scale and aspect ratio of the powerup icon
             trans.localScale = new Vector3 (1f, 1f, 1f);
             powerUpImage.preserveAspect = true;
         }

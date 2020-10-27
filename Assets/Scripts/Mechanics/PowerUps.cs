@@ -8,7 +8,7 @@ using static Platformer.Core.Simulation;
 namespace Platformer.Mechanics
 {
     /// <summary>
-    /// Represebts the current vital statistics of some game entity.
+    /// Represents the current vital statistics of some game entity.
     /// </summary>
     public class PowerUps : MonoBehaviour
     {
@@ -28,6 +28,7 @@ namespace Platformer.Mechanics
 
             // Initialize list & Add powerups to it
             powerUpsList = new List<PowerUp>() {speed, damage, health, jump, attackRange};
+
         }
 
         public List<PowerUp> ChooseRandomPowerUps() {
