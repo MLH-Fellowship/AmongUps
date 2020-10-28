@@ -65,6 +65,8 @@ namespace Platformer.Mechanics
 
         List<PowerUp> powerUps;
 
+        public Sprite textImage;
+
         public LayerMask enemyLayer;
         bool isSpriteFlipped;
 

@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: 8631265482391237595
     second: PC Computer - Among Us - Buttons & Menu Elements_4
+  - first:
+      213: -2478068946295923527
+    second: PC Computer - Among Us - Buttons & Menu Elements_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -194,7 +197,7 @@ TextureImporter:
         width: 65
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,6 +205,27 @@ TextureImporter:
       bones: []
       spriteID: bd33500d93a68c770800000000000000
       internalID: 8631265482391237595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Buttons & Menu Elements_5
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 27
+        width: 123
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcda173c612c9dd0800000000000000
+      internalID: -2478068946295923527
       vertices: []
       indices: 
       edges: []

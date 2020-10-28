@@ -44,9 +44,8 @@ public class PowerupMenuController : MonoBehaviour
     public void SetWinnerAndLoser(PlayerController playerWon, PlayerController playerLost) {
         winner = playerWon;
         loser = playerLost;
-        //topText.text = $"Choose A PowerUp";
-        topText.text = $"{winner.name} takes the round!\nChoose A PowerUp";
-        bottomText.text = $"Careful! The PowerUp you don't choose will go to {loser.name}";
+        topText.text = $"Choose A PowerUp";
+        bottomText.text = $"Careful! The remaining PowerUp will go to your opponent";
     }
 
     public void Show () {
@@ -79,6 +78,9 @@ public class PowerupMenuController : MonoBehaviour
         // Update power up text
         leftTextBox.text = leftPowerUp.powerUpText;
         rightTextBox.text = rightPowerUp.powerUpText;
+
+        // Update winner text
+        winnerText.sprite = winner.textImage;
     }
 
     void Hide () {
