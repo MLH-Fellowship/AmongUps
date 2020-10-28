@@ -15,6 +15,6 @@ Unity (C#)
 
 ## Contributors
 
-[Ajwad Shaik](https://github.com/ajwad-shaikh)
+[Ajwad Shaikh](https://github.com/ajwad-shaikh)
 
 [Chau Vu](https://github.com/cqvu)
