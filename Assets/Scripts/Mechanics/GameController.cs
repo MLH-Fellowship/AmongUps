@@ -62,12 +62,12 @@ namespace Platformer.Mechanics
             if(impostor.playerScore >= 3) {
                 // declare impostor as Winner
                 victoryScreen.SetActive(true);
-                victoryScreen.transform.GetChild(1).GetComponent<Image>().color = new Color32(255, 243, 0, 255);
+                victoryScreen.transform.GetChild(1).GetComponent<Image>().color = impostor.color;
             }
             else if (crewmate.playerScore >= 3) {
                 // declare crewmate as Winner
                 victoryScreen.SetActive(true);
-                victoryScreen.transform.GetChild(1).GetComponent<Image>().color = new Color32(0, 255, 255, 255);
+                victoryScreen.transform.GetChild(1).GetComponent<Image>().color = crewmate.color;
             }
             else {
                 powerupMenu.SetWinnerAndLoser(winner, loser);

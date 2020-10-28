@@ -20,15 +20,15 @@ namespace Platformer.Mechanics
             PowerUp speed, damage, health, jump, attackRange, attackRate;
 
             // Initialize powerups
-            speed = new PowerUp("speed", "+ Speed", speedIcon);
-            damage = new PowerUp("damage", "+ Damage", damageIcon);
-            health = new PowerUp("health", "+ Health", healthIcon);
-            jump = new PowerUp("jump", "+ Jump", jumpIcon);
-            attackRange = new PowerUp("attackRange", "+ Attack Range", attackRangeIcon);
-            attackRate = new PowerUp("attackRate", "+ Attack Rate", attackRateIcon);
+            speed = new PowerUp("speed", "+ Speed", speedIcon, new Vector3(-6, 25, 1));
+            damage = new PowerUp("damage", "+ Damage", damageIcon, new Vector3(0, 20, 1));
+            health = new PowerUp("health", "+ Health", healthIcon, new Vector3(12, 60, 1));
+            jump = new PowerUp("jump", "+ Jump", jumpIcon, new Vector3(0, 100, 1));
+            attackRange = new PowerUp("attackRange", "+ Attack Range", attackRangeIcon, new Vector3(-6, 80, 1));
+            attackRate = new PowerUp("attackRate", "+ Attack Rate", attackRateIcon, new Vector3(0, 60, 1));
 
             // Initialize list & Add powerups to it
-            powerUpsList = new List<PowerUp>() {speed, damage, health, jump, attackRange, attackRate};
+            powerUpsList = new List<PowerUp>() {health, jump, speed, damage, attackRange, attackRate};
 
         }
 

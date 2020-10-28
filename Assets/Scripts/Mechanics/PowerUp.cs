@@ -15,6 +15,8 @@ namespace Platformer.Mechanics
         public string powerUpText;
         public Sprite powerUpIcon;
 
+        public Vector3 renderPosition;
+
         const int SPEED_INCREMENT = 3;
         const int DAMAGE_INCREMENT = 1;
         const int HEALTH_INCREMENT = 5;
@@ -23,10 +25,11 @@ namespace Platformer.Mechanics
         const float RATE_INCREMENT = 1f;
         
 
-        public PowerUp(string name, string text, Sprite icon) {
+        public PowerUp(string name, string text, Sprite icon, Vector3 position) {
             powerUpName = name;
             powerUpText = text;
             powerUpIcon = icon;
+            renderPosition = position;
         }
 
         public void Execute(PlayerController player) {
