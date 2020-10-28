@@ -7,7 +7,10 @@ With elements based on the popular game Among Us, AmongUps has two players fight
 
 ## Screenshots
 
-
+![Start Screen](./Media/StartScreen.jpg)
+![Controls](./Media/Controls.jpg)
+![Game Start](./Media/GameStart.jpg)
+![Power Up Screen](./Media/PowerUpScreen.jpg)
 
 ## Tech Stack
 
