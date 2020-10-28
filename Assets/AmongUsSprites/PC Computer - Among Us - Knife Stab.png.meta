@@ -1,7 +1,76 @@
 fileFormatVersion: 2
 guid: 4ec2d1469d4a9e643a8a0e1babe9494f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6039105149114239462
+    second: PC Computer - Among Us - Knife Stab_0
+  - first:
+      213: -9123766044310202763
+    second: PC Computer - Among Us - Knife Stab_1
+  - first:
+      213: 6361458274627284903
+    second: PC Computer - Among Us - Knife Stab_2
+  - first:
+      213: -2603261958403683331
+    second: PC Computer - Among Us - Knife Stab_3
+  - first:
+      213: -8200538064641836477
+    second: PC Computer - Among Us - Knife Stab_4
+  - first:
+      213: -7092384291740806450
+    second: PC Computer - Among Us - Knife Stab_5
+  - first:
+      213: -9094962523445493541
+    second: PC Computer - Among Us - Knife Stab_6
+  - first:
+      213: 5412349345671741633
+    second: PC Computer - Among Us - Knife Stab_7
+  - first:
+      213: 5525468256890517750
+    second: PC Computer - Among Us - Knife Stab_8
+  - first:
+      213: 367670612830592433
+    second: PC Computer - Among Us - Knife Stab_9
+  - first:
+      213: 4215326326693812661
+    second: PC Computer - Among Us - Knife Stab_10
+  - first:
+      213: 4126848096074013409
+    second: PC Computer - Among Us - Knife Stab_11
+  - first:
+      213: 1320169807683642631
+    second: PC Computer - Among Us - Knife Stab_12
+  - first:
+      213: 2406628486929938683
+    second: PC Computer - Among Us - Knife Stab_13
+  - first:
+      213: -958516339155812489
+    second: PC Computer - Among Us - Knife Stab_14
+  - first:
+      213: 3218344181919566907
+    second: PC Computer - Among Us - Knife Stab_15
+  - first:
+      213: 4927926515506795852
+    second: PC Computer - Among Us - Knife Stab_16
+  - first:
+      213: 4742810055183998869
+    second: PC Computer - Among Us - Knife Stab_17
+  - first:
+      213: -114931703839860969
+    second: PC Computer - Among Us - Knife Stab_18
+  - first:
+      213: -1088333366903873753
+    second: PC Computer - Among Us - Knife Stab_19
+  - first:
+      213: 4812293763438887526
+    second: PC Computer - Among Us - Knife Stab_20
+  - first:
+      213: -4049509826783467685
+    second: PC Computer - Among Us - Knife Stab_21
+  - first:
+      213: 1084527222027525977
+    second: PC Computer - Among Us - Knife Stab_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -13,8 +82,8 @@ TextureImporter:
     borderMipMap: 0
     mipMapsPreserveCoverage: 0
     alphaTestReferenceValue: 0.5
-    mipMapFadeDistanceStart: 1
-    mipMapFadeDistanceEnd: 3
+    mipMapFadeDistanceStart: 0
+    mipMapFadeDistanceEnd: 2
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
@@ -31,7 +100,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -49,7 +118,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -83,9 +152,462 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1336
+        width: 74
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9cf26f2263fc350800000000000000
+      internalID: 6039105149114239462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1346
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5769e1b5f1fd16180800000000000000
+      internalID: -9123766044310202763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1346
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afe0a8a890784850800000000000000
+      internalID: 6361458274627284903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_3
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1346
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb8f00aa0b5fdbd0800000000000000
+      internalID: -2603261958403683331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1346
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a34f91416d13e80800000000000000
+      internalID: -8200538064641836477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_5
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1346
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec29a30501ac29d90800000000000000
+      internalID: -7092384291740806450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_6
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1349
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd08a88a5c338c180800000000000000
+      internalID: -9094962523445493541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_7
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1349
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c00515dd078c1b40800000000000000
+      internalID: 5412349345671741633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_8
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1349
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8f7adba186eac40800000000000000
+      internalID: 5525468256890517750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_9
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1349
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd1e10797a3a1500800000000000000
+      internalID: 367670612830592433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_10
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1349
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9dfead5f8df7a30800000000000000
+      internalID: 4215326326693812661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1232
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea1d787a72854930800000000000000
+      internalID: 4126848096074013409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1232
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705ed2e027f225210800000000000000
+      internalID: 1320169807683642631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1232
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf87bc5abdf066120800000000000000
+      internalID: 2406628486929938683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1232
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fb53dc77aa2b2f0800000000000000
+      internalID: -958516339155812489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1232
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cc2406bfad9ac20800000000000000
+      internalID: 3218344181919566907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1219
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45d20c7e03836440800000000000000
+      internalID: 4927926515506795852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_17
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1219
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f9460ed98d1d140800000000000000
+      internalID: 4742810055183998869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_18
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1219
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717d13b693ea76ef0800000000000000
+      internalID: -114931703839860969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_19
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1219
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f5d7ca19675e0f0800000000000000
+      internalID: -1088333366903873753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Among Us - Knife Stab_20
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1219
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6624a946ea3b8c240800000000000000
+      internalID: 4812293763438887526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

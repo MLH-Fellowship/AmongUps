@@ -15,6 +15,14 @@ namespace Platformer.Mechanics
         public string powerUpText;
         public Sprite powerUpIcon;
 
+        const int SPEED_INCREMENT = 3;
+        const int DAMAGE_INCREMENT = 1;
+        const int HEALTH_INCREMENT = 5;
+        const int JUMP_INCREMENT = 2;
+        const float RANGE_INCREMENT = 0.5f;
+        const float RATE_INCREMENT = 1f;
+        
+
         public PowerUp(string name, string text, Sprite icon) {
             powerUpName = name;
             powerUpText = text;
@@ -23,19 +31,22 @@ namespace Platformer.Mechanics
 
         public void Execute(PlayerController player) {
             if (powerUpName == "speed") {
-                player.maxSpeed += 2;
+                player.maxSpeed += SPEED_INCREMENT;
             }
             else if (powerUpName == "damage") {
-                player.attackDamage += 1;
+                player.attackDamage += DAMAGE_INCREMENT;
             }
             else if (powerUpName == "health") {
-                player.health.maxHP += 5;
+                player.health.maxHP += HEALTH_INCREMENT;
             }
             else if (powerUpName == "jump") {
-                player.jumpTakeOffSpeed += 2;
+                player.jumpTakeOffSpeed += JUMP_INCREMENT;
             }
             else if (powerUpName == "attackRange") {
-                player.attackRange += 0.25f;
+                player.attackRange += RANGE_INCREMENT;
+            }
+            else if (powerUpName == "attackRate") {
+                player.attackRate += RATE_INCREMENT;
             }
         }
     }

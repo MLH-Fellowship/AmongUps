@@ -20,17 +20,8 @@ public class CameraFollow : MonoBehaviour {
     public float bounds;
     
     void Awake () 
-    {
-        //checking if there's already a game manager
-        if(cFollow == null)
-        {
-            DontDestroyOnLoad (gameObject);    
-            cFollow = this;
-        }
-        else if(cFollow != this)
-        {
-            Destroy(gameObject);
-        }    
+    { 
+        cFollow = this;
     }
     
     void Start () 
@@ -86,7 +77,7 @@ public class CameraFollow : MonoBehaviour {
         if (target1)
         {
             Vector3 point = GetComponent<Camera>().WorldToViewportPoint(Midpoint);
-            Vector3 delta = Midpoint - GetComponent<Camera>().ViewportToWorldPoint(new Vector3(0.5f, 0.5f, camDistance + CamOffset)); //(new Vector3(0.5, 0.5, point.z));
+            Vector3 delta = Midpoint - GetComponent<Camera>().ViewportToWorldPoint(new Vector3(0.5f, 0.5f, camDistance + CamOffset));
             Vector3 destination = transform.position + delta;
             transform.position = Vector3.Slerp(transform.position, destination, dampTime);
         }
