@@ -51,6 +51,7 @@ namespace Platformer.Mechanics
         public Bounds Bounds => collider2d.bounds;
 
         public Transform attackPoint, spawnPoint;
+        
         public float attackRange = 0.5f;
 
         public int attackDamage = 2;
@@ -59,7 +60,7 @@ namespace Platformer.Mechanics
         float nextAttackTime = 0f;
 
         public Color32 color;
-        //public Sprite text;
+ 
         public int playerScore = 0;
         public bool isDead = false;
 
