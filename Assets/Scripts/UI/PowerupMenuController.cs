@@ -15,6 +15,8 @@ public class PowerupMenuController : MonoBehaviour
 
     public TextMeshProUGUI leftTextBox, rightTextBox, topText, bottomText;
 
+    public Image winnerText;
+
     public Image leftImage, rightImage;
 
     PowerUp leftPowerUp, rightPowerUp;
@@ -42,8 +44,8 @@ public class PowerupMenuController : MonoBehaviour
     public void SetWinnerAndLoser(PlayerController playerWon, PlayerController playerLost) {
         winner = playerWon;
         loser = playerLost;
-        topText.text = $"{winner.name}\nChoose A PowerUp";
-        bottomText.text = $"Careful! The PowerUp you don't choose will Go to {loser.name}";
+        topText.text = $"Choose A PowerUp";
+        bottomText.text = $"Careful! The remaining PowerUp will go to your opponent";
     }
 
     public void Show () {
@@ -61,13 +63,24 @@ public class PowerupMenuController : MonoBehaviour
     }
 
     public void UpdatePowerUpUI() {
+        // Set winner color for sprites in powerup screen
+        powerupMenuUI.transform.GetChild(0).GetChild(0).GetComponent<Image>().color = winner.color;
+        powerupMenuUI.transform.GetChild(0).GetChild(1).GetComponent<Image>().color = winner.color;
+
         // Update power up icons
         leftImage.sprite = leftPowerUp.powerUpIcon;
         rightImage.sprite = rightPowerUp.powerUpIcon;
 
+        // Update position of icons
+        leftImage.rectTransform.localPosition = leftPowerUp.renderPosition;
+        rightImage.rectTransform.localPosition = rightPowerUp.renderPosition;
+
         // Update power up text
         leftTextBox.text = leftPowerUp.powerUpText;
         rightTextBox.text = rightPowerUp.powerUpText;
+
+        // Update winner text
+        winnerText.sprite = winner.textImage;
     }
 
     void Hide () {

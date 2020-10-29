@@ -6,7 +6,17 @@
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "firstTime",
-                "value": "{\"m_Value\":true}"
+                "value": "{\"m_Value\":false}"
+            },
+            {
+                "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "buildOutputDirList",
+                "value": "{\"m_Value\":\"E:/Work/MLH/AmongUps/WebGL;E:/Work/MLH/Unity;;;;;;;;\"}"
+            },
+            {
+                "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "thumbnailPath",
+                "value": "{\"m_Value\":\"\"}"
             }
         ]
     }

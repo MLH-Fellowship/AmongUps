@@ -60,14 +60,20 @@ namespace Platformer.Mechanics
         IEnumerator CheckForWinner() {
             yield return new WaitForSeconds(3f);
             if(impostor.playerScore >= 3) {
-                // declare impostor as Winner
                 victoryScreen.SetActive(true);
-                victoryScreen.transform.GetChild(1).GetComponent<Image>().color = new Color32(255, 243, 0, 255);
+                // declare impostor as Winner
+                victoryScreen.transform.GetChild(1).GetComponent<Image>().color = impostor.color;
+                // set crewmate as loser sprite
+                victoryScreen.transform.GetChild(2).GetComponent<Image>().color = crewmate.color;
+
             }
             else if (crewmate.playerScore >= 3) {
-                // declare crewmate as Winner
                 victoryScreen.SetActive(true);
-                victoryScreen.transform.GetChild(1).GetComponent<Image>().color = new Color32(0, 255, 255, 255);
+                // declare crewmate as Winner
+                victoryScreen.transform.GetChild(1).GetComponent<Image>().color = crewmate.color;
+                // set crewmate as loser sprite
+                victoryScreen.transform.GetChild(2).GetComponent<Image>().color = impostor.color;
+
             }
             else {
                 powerupMenu.SetWinnerAndLoser(winner, loser);
@@ -81,6 +87,10 @@ namespace Platformer.Mechanics
 
         public void PlayAgain() {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        public void Quit() {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
     }
 }

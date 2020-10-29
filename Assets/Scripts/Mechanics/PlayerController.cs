@@ -19,6 +19,8 @@ namespace Platformer.Mechanics
         public AudioClip jumpAudio;
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
+        public AudioClip attackAudio;
+        public AudioClip deathAudio;
 
         public TextMeshProUGUI scoreKeeper;
 
@@ -49,6 +51,7 @@ namespace Platformer.Mechanics
         public Bounds Bounds => collider2d.bounds;
 
         public Transform attackPoint, spawnPoint;
+        
         public float attackRange = 0.5f;
 
         public int attackDamage = 2;
@@ -56,10 +59,14 @@ namespace Platformer.Mechanics
         public float attackRate = 2f;
         float nextAttackTime = 0f;
 
+        public Color32 color;
+ 
         public int playerScore = 0;
         public bool isDead = false;
 
         List<PowerUp> powerUps;
+
+        public Sprite textImage;
 
         public LayerMask enemyLayer;
         bool isSpriteFlipped;
@@ -73,6 +80,8 @@ namespace Platformer.Mechanics
             animator = GetComponent<Animator>();
             isSpriteFlipped = spriteRenderer.flipX;
             powerUps = new List<PowerUp>();
+            color = gameObject.CompareTag("Crewmate") ?  new Color32(0, 255, 255, 255) : new Color32(255, 243, 0, 255);
+            audioSource.PlayOneShot(respawnAudio);
         }
 
         protected override void Update()
@@ -86,10 +95,12 @@ namespace Platformer.Mechanics
                     isSpriteFlipped = spriteRenderer.flipX;
                 }
 
+                // detect movement keybindings
                 move.x = gameObject.CompareTag("Crewmate") ? Input.GetAxis("Horizontal") : Input.GetAxis("Horizontal-2");
                 bool jumpKeyDown = gameObject.CompareTag("Crewmate") ? Input.GetButtonDown("Jump") : Input.GetButtonDown("Jump-2");
                 bool jumpKeyUp = gameObject.CompareTag("Crewmate") ? Input.GetButtonUp("Jump") : Input.GetButtonUp("Jump-2");
 
+                // detect jump state
                 if (jumpState == JumpState.Grounded && jumpKeyDown)
                     jumpState = JumpState.PrepareToJump;
                 else if (jumpKeyUp)
@@ -98,6 +109,7 @@ namespace Platformer.Mechanics
                     Schedule<PlayerStopJump>().player = this;
                 }
 
+                // detect attack state and set attack rate
                 bool attackKey = gameObject.CompareTag("Crewmate") ? Input.GetButtonDown("Attack") : Input.GetButtonDown("Attack-2");
                 if (Time.time >= nextAttackTime) {
                     if (attackKey) {
@@ -105,8 +117,6 @@ namespace Platformer.Mechanics
                         nextAttackTime = Time.time + 1f / attackRate;
                     }
                 }
-
-
             }
             else
             {
@@ -123,6 +133,7 @@ namespace Platformer.Mechanics
             Collider2D[] hitEnemy = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
             // Decrease enemy health
             foreach(Collider2D enemy in hitEnemy) {
+                audioSource.PlayOneShot(attackAudio);
                 enemy.GetComponent<Health>().Decrement(attackDamage);
                 if(enemy.GetComponent<Health>().IsAlive)
                     enemy.GetComponent<Animator>().Play("Player-Hurt");
@@ -194,6 +205,7 @@ namespace Platformer.Mechanics
         public void Dead()
         {
             animator.Play("Player-Death");
+            audioSource.PlayOneShot(deathAudio);
             isDead = true;
         }
 
@@ -201,6 +213,7 @@ namespace Platformer.Mechanics
             isDead = false;
             health.Respawn();
             transform.position = spawnPoint.position;
+            audioSource.PlayOneShot(respawnAudio);
             animator.Play("Player-Spawn");
         }
 
