@@ -23,6 +23,9 @@ With elements based on the popular game Among Us, AmongUps has two players fight
 - ### Choosing PowerUps
     ![Power Up Screen](./Media/PowerUpScreen.jpg)
 
+- ### Winning the Game
+	![Winning Screen](./Media/WinScreen.jpg)
+
 ## Tech Stack 
 ![GitHub top language](https://img.shields.io/github/languages/top/MLH-Fellowship/AmongUps?style=for-the-badge)
 
